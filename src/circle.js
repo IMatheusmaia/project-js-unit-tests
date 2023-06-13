@@ -29,7 +29,5 @@ const circle = (radius) => {
     circumference: 2 * PI * radius,
   };
 };
-console.log(circle(3));
-console.log(Array.from(Object.entries(circle(3))).join());
 
 module.exports = circle;
