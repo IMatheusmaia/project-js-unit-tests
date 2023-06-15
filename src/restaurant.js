@@ -1,6 +1,3 @@
-/* eslint-disable max-len */
-// Siga as orientações do README!
-
 const createMenu = (comidas, bebidas) => {
     const objectFD = { food: Object(comidas), 
         drinks: Object(bebidas),
@@ -24,6 +21,6 @@ const createMenu = (comidas, bebidas) => {
     };
     return menu;
 };
-console.log(createMenu({ coxinha: 3.90, sanduiche: 9.90 }, { agua: 3.90, cerveja: 6.90 }).order('coxinha'));
+createMenu({ coxinha: 3.90, sanduiche: 9.90 }, { agua: 3.90, cerveja: 6.90 }).order('coxinha');
 
 module.exports = createMenu;
